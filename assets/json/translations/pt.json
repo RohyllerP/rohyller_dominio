@@ -160,10 +160,46 @@
       },
       "button": "Enviar"
     },
-    "work":{
+    "work": {
       "title": "Trabalho",
       "subtitle": "Minha trayectoria profissional",
-      "button": "See more details"
+      "button": "See more details",
+      "items": [
+        {
+          "type": "Tempo inteiro",
+          "dates": "Julho 2022 - Abril 2025",
+          "title": "Técnico de Desenvolvimento de Soluções Informáticas (Remoto)",
+          "company": "Trabajos digitales Chile",
+          "location": "Chile",
+          "description": "Trabalhei remotamente para uma empresa chilena de apoio académico universitário, desenvolvendo tarefas e projetos na área de informática, como programação, bases de dados e teses. Realizei tanto projetos de raiz como melhorias a trabalhos existentes, com total autonomia. Além disso, criei websites e protótipos para clientes reais, utilizando ferramentas como Adobe XD e Photoshop quando necessário. Esta experiência fortaleceu as minhas competências técnicas, de design e de comunicação profissional.",
+          "highlights": "Alguns destaque:",
+          "achievements": [
+            "Desenvolvimento completo de projetos académicos e profissionais em informática.",
+            "Gestão autónoma de tarefas desde a análise até à entrega final.",
+            "Criação de interfaces e protótipos funcionais com Adobe XD e Photoshop.",
+            "Entrega de soluções personalizadas para clientes reais e estudantes.",
+            "Otimização do desempenho do código e clareza na documentação técnica."
+          ],
+          "technologies": "Tecnologias:"
+        },
+        {
+          "type": "Tempo integral",
+          "dates": "Janeiro 2024 - Abril 2024",
+          "title": "Desenvolvedor Full Stack freelancer",
+          "company": "IntechChain",
+          "location": "Colômbia",
+          "description": "Participei como desenvolvedor full stack no desenvolvimento de uma aplicação móvel de carteira descentralizada para iOS e Android. Trabalhei remotamente com uma equipa colombiana composta por programadores, gestores de projeto e designers. Utilizámos metodologias ágeis, com reuniões diárias (daily chats), gestão de tarefas no Jira e controlo de versões com GitHub. Implementei funcionalidades no frontend e backend, contribuindo ativamente para a evolução técnica do projeto.",
+          "highlights": "Principais Conquistas:",
+          "achievements": [
+            "Desenvolvimento full stack de uma aplicação móvel de carteira descentralizada para iOS e Android.",
+            "Colaboração ativa com uma equipa multidisciplinar remota (desenvolvimento, design e gestão).",
+            "Implementação de funcionalidades no frontend e backend com foco modular e escalável.",
+            "Gestão de tarefas com Jira e controlo de versões no GitHub.",
+            "Participação diária em reuniões de acompanhamento com metodologia ágil."
+          ],
+          "technologies": "Tecnologias: "
+        }
+      ]
     },
     "alerts": {
       "nameInvalid": {

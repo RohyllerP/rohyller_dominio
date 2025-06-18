@@ -727,18 +727,14 @@ h2 {
 
                 .div-circle-box {
                     display: flex;
+                    gap: 20px;
                     padding-bottom: 12px;
-                    position: relative;
-                    left: -10px;
-                    @media screen and (max-width: 350px) {
-                        left: 0px;
-                        
-                    }
+                    
                     .div-circle-2 {
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        width: 150px;
+                        
                         color: rgb(var(--color-primary));
                         font-weight: bold;
                     }

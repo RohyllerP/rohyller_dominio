@@ -141,7 +141,43 @@
       "title": "Work",
       "subtitle": "My Professional History",
       "paragraph": "My work experience and professional background.",
-      "button": "See more details"
+      "button": "See more details",
+      "items": [
+        {
+          "type": "Full-time",
+          "dates": "July 2022 - April 2025",
+          "title": "IT Solutions Development Technician (Remote)",
+          "company": "Trabajos digitales Chile",
+          "location": "Chile",
+          "description": "I worked remotely for a Chilean company providing academic support to university students, developing IT tasks and projects, including programming, databases, and theses. I undertook both greenfield projects and enhancements to existing works with complete autonomy. Additionally, I built websites and prototypes for real clients, utilizing tools like Adobe XD and Photoshop when necessary. This experience strengthened my technical, design, and professional communication skills.",
+          "highlights": "Highlights:",
+          "achievements": [
+            "Full-cycle development of academic and professional IT projects.",
+            "Autonomous management of tasks from analysis to final delivery.",
+            "Design of functional interfaces and prototypes using Adobe XD and Photoshop.",
+            "Delivery of customized solutions for real clients and students.",
+            "Optimization of code performance and clarity in technical documentation."
+          ],
+          "technologies": "Technologies:"
+        },
+        {
+          "type": "Full-time",
+          "dates": "January 2024 - April 2024",
+          "title": "Freelance Full Stack Developer",
+          "company": "IntechChain",
+          "location": "Colombia",
+          "description": "I worked as a full stack developer on the development of a decentralized wallet mobile app for iOS and Android. I collaborated remotely with a Colombian team consisting of developers, project managers, and designers. We followed agile methodologies with daily meetings, task management through Jira, and version control using GitHub. I implemented frontend and backend features, actively contributing to the technical progress of the project.",
+          "highlights": "Key Achievements:",
+          "achievements": [
+            "Full stack development of a decentralized wallet mobile app for iOS and Android.",
+            "Active collaboration with a multidisciplinary remote team (development, design, and management).",
+            "Implementation of frontend and backend features with a modular and scalable approach.",
+            "Task management using Jira and version control via GitHub.",
+            "Daily participation in agile follow-up meetings."
+          ],
+          "technologies": "Technologies: "
+        }
+      ]
     },
     "contact": {
       "title": "Contact",

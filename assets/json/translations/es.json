@@ -137,10 +137,46 @@
         }
       ]
     },
-    "work":{
+    "work": {
       "title": "Trabajo",
       "subtitle": "Mi trayectoria profesional",
-      "button": "See more details"
+      "button": "See more details",
+      "items": [
+        {
+          "type": "Tiempo completo",
+          "dates": "Julio 2022 - Abril 2025",
+          "title": "Técnico en Desarrollo de Soluciones Informáticas (Remoto)",
+          "company": "Trabajos digitales Chile",
+          "location": "Chile",
+          "description": "Trabajé de forma remota para una empresa chilena de apoyo académico universitario, desarrollando tareas y proyectos del área de informática, como programación, bases de datos y tesis. Realicé tanto proyectos desde cero como mejoras a trabajos existentes, con total autonomía. Además, llevé a cabo sitios web y prototipos para clientes reales, utilizando herramientas como Adobe XD y Photoshop cuando fue necesario. Esta experiencia fortaleció mis habilidades técnicas, de diseño y comunicación profesional.",
+          "highlights": "Logros Destacados:",
+          "achievements": [
+            "Desarrollo completo de proyectos académicos y profesionales en informática.",
+            "Gestión autónoma de tareas desde el análisis hasta la entrega final.",
+            "Diseño de interfaces y prototipos funcionales con Adobe XD y Photoshop.",
+            "Entrega de soluciones personalizadas para clientes reales y estudiantes.",
+            "Optimización del rendimiento y claridad en código y documentación técnica."
+          ],
+          "technologies": "Tecnologias:"
+        },
+        {
+          "type": "Tiempo completo",
+          "dates": "Enero 2024 - Abril 2024",
+          "title": "Desarrollador Full Stack freelance",
+          "company": "IntechChain",
+          "location": "Colombia",
+          "description": "Participé como desarrollador full stack en el desarrollo de una aplicación móvil de wallet descentralizada para iOS y Android. Trabajé en un equipo remoto conformado por programadores, project managers y diseñadores. Usamos metodologías ágiles con reuniones diarias (daily chats), gestión de tareas en Jira y control de versiones en GitHub. Implementé funcionalidades tanto del frontend como del backend, contribuyendo activamente al progreso técnico del proyecto.",
+          "highlights": "Logros Destacados:",
+          "achievements": [
+            "Desarrollo full stack en una app móvil de wallet descentralizada para iOS y Android.",
+            "Colaboración activa en un equipo multidisciplinario remoto (desarrollo, diseño y gestión).",
+            "Implementación de funcionalidades en frontend y backend con enfoque modular y escalable.",
+            "Gestión de tareas mediante Jira y control de versiones en GitHub.",
+            "Participación diaria en reuniones de seguimiento bajo metodología ágil."
+          ],
+          "technologies": "Tecnologías: "
+        }
+      ]
     },
     "contact": {
       "title": "Contacto",
