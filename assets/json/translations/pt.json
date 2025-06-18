@@ -1,0 +1,198 @@
+{
+  "nav": {
+    "about": "Sobre mim",
+    "projects": "Projetos",
+    "certificates": "Certificados",
+    "education": "Educação",
+    "work": "Experiência",
+    "contact": "Contato"
+  },
+  "Languages": {
+    "en": "Inglês",
+    "pt": "Português",
+    "es": "Espanhol"
+  },
+  "Main": {
+    "home": {
+      "title": "Ola,",
+      "title_two": "Eu sou Rohyller",
+      "button": "Veja meus projetos",
+      "button_two": "Veja meus certificados"
+    },
+    "about": {
+      "title": "Sobre mim",
+      "subtitle": "Conheça a minha história",
+      "paragraph1": "Minha paixão pela tecnologia nasceu do desejo de construir soluções que realmente gerem valor para as pessoas. Não se trata apenas de escrever código, mas de compreender problemas, criar respostas inteligentes e traduzi-las em experiências digitais intuitivas e funcionais. Desde o início, busco equilibrar o lado técnico com o humano, acreditando que o desenvolvimento web é uma ferramenta poderosa quando colocada a serviço de necessidades reais.",
+      "paragraph2": "Ao longo da minha carreira, trabalhei com diversas tecnologias e metodologias, o que me ensinou a me adaptar rapidamente e a sempre priorizar a qualidade. Gosto de colaborar com equipes multidisciplinares, compartilhar conhecimento e manter uma mentalidade de melhoria contínua. Acredito em escrever código limpo, construir produtos sustentáveis e aprender algo novo todos os dias.",
+      "paragraph3": "Mais do que as ferramentas que utilizo, o que realmente me motiva é a possibilidade de criar algo significativo. Busco participar de projetos com propósito, cercado por pessoas comprometidas, onde a tecnologia não seja o fim, mas o meio para gerar um impacto positivo. Essa é a visão que guia cada passo da minha trajetória profissional.",
+      "skill1": {
+        "title": "Design UI/UX",
+        "desc": "Criação de interfaces atrativas e experiências de usuário intuitivas."
+      },
+      "skill2": {
+        "title": "Desenvolvimento Frontend",
+        "desc": "Construção de interfaces modernas e responsivas com as tecnologias mais recentes."
+      },
+      "skill3": {
+        "title": "Desenvolvimento Backend",
+        "desc": "Criação de APIs robustas e sistemas escaláveis para aplicações web."
+      }
+    },
+    "project": {
+      "title": "Projetos",
+      "subtitle": "Meus Projetos Destacados",
+      "paragraph1": "Uma seleção dos projetos mais destacados nos quais trabalhei.",
+      "items": [
+        {
+          "title": "Tic Tac Toe",
+          "description": "Um jogo clásico de Tic Tac Toe desenvolvido com lógica simples e interface interativa para dois jogadores."
+        },
+        {
+          "title": "Cartas de Memória",
+          "description": "Jogo de cartas de memória com temporizador integrado que desafia para melhorar seu melhor tempo na web."
+        },
+        {
+          "title": "Calculadora",
+          "description": "Calculadora web simples e funcional que permite realizar operações básicas de forma rápida e precisa..."
+        },
+        {
+          "title": "Notas",
+          "description": "Site de lista de tarefas com categorias. Permite criar, editar e eliminar tarefas dentro de categorias personalizadas. Os dados são guardados no LocalStorage, permanecendo assim mesmo após o fecho da janela."
+        }
+      ],
+      "button": "Ver mais detalhes"
+    },
+    "certificate": {
+      "title": "Certificados",
+      "subtitle": "Meus Certificados",
+      "paragraph1": "Certificação profesional que avala meus conhecimentos e habilidades.",
+      "button": "Ver certificado",
+      "items": [
+        {
+          "title": "Inglês A1",
+          "date": "Junho 2022"
+        },
+        {
+          "title": "Inglês B1",
+          "date": "Fevereiro 2023"
+        },
+        {
+          "title": "Inglês C1",
+          "date": "Outubro 2023"
+        },
+        {
+          "title": "Taller de Python",
+          "date": "Outubro 2022"
+        },
+        {
+          "title": "Modelo vista controlador - C#",
+          "date": "Outubro 2022"
+        },
+        {
+          "title": "Photoshop de cero a experto",
+          "date": "Fevereiro 2024"
+        },
+        {
+          "title": "Introdução ao desenvolvimento web 1",
+          "date": "Outubro 2020"
+        },
+        {
+          "title": "Frontend web developer",
+          "date": "Agosto 2021"
+        }
+      ]
+    },
+    "education": {
+      "title": "Educação",
+      "subtitle": "Minha Trayectoria Acadêmica",
+      "paragraph1": "Minha trayectoria acadêmica.",
+      "button": "Ver certificado",
+      "items": [
+        {
+          "title": "Carreira técnica Fundamentos de programação",
+          "subtitle": "Academia CADIF1",
+          "desc": "Formação técnica em fundamentos de programação, com enfoque em lógica computacional, algoritmos com PSeInt e introdução a programação orientada a objetos."
+        },
+        {
+          "title": "Carreira técnica frontend júnior",
+          "subtitle": "Academia CADIF1",
+          "desc": "O curso técnico de Frontend Júnior abrange o desenvolvimento de interfaces web com HTML, CSS e JavaScript. Inclui o uso de pré-processadores como Sass e a implementação de frameworks de CSS para otimizar o design. Foca na criação de sites modernos, acessíveis e responsivos."
+        },
+        {
+          "title": "Carreira Técnica Frontend Master",
+          "subtitle": "Academia CADIF1",
+          "desc": "O programa Frontend Master é focado no uso avançado de frameworks e tecnologias modernas para o desenvolvimento web. Inclui o aprendizado de frameworks como AngularJS, ReactJS e VueJS, além do desenvolvimento de aplicativos móveis híbridos com Ionic. Também abrange o uso de TypeScript para melhorar a qualidade e escalabilidade do código JavaScript."
+        },
+        {
+          "title": "Carreira Técnica Backend com Node.js",
+          "subtitle": "Academia CADIF1",
+          "desc": "O programa Frontend Master foca no uso avançado de frameworks e tecnologias modernas para o desenvolvimento web. Inclui o aprendizado de frameworks como AngularJS, ReactJS e VueJS, bem como o desenvolvimento de aplicações móveis híbridas com Ionic. Também abrange o uso de TypeScript para melhorar a qualidade e a escalabilidade do código JavaScript.",
+          "date": "2024-atual"
+        },
+        {
+          "title": "Curso de Design e Programação Web",
+          "subtitle": "Academia MasterD",
+          "desc": "O Curso de Design e Programação Web tem como objetivo preparar os estudantes com os conhecimentos e competências necessárias para iniciar a sua carreira profissional como Designers Web, Desenvolvedores Web ou Desenvolvedores Full-stack. O programa inclui o uso de PHP, design de experiência do utilizador (UX) e interface (UI), desenvolvimento com WordPress, JavaScript e AJAX, bem como a gestão de bases de dados MySQL.",
+          "date": "2025-atual"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contacto",
+      "subtitle": "Contacta-me",
+      "paragraph1": "Interessado em trabalharmos juntos? Entra em contacto comigo.",
+      "email": "Email",
+      "phone": "Telefone",
+      "location": "Localização",
+      "redes": "Redes Sociais",
+      "form": {
+        "title": "Envie-me uma mensagem",
+        "subtitle": "Preencha o formulário e entrarei em contacto consigo o mais breve possível.",
+        "name": "Nome",
+        "name_placeholder": "Seu nome",
+        "email": "Email",
+        "email_placeholder": "seuemail@exemplo.com",
+        "subject": "Assunto",
+        "subject_placeholder": "Assunto da mensagem",
+        "message": "Mensagem",
+        "message_placeholder": "Sua mensagem",
+        "send": "Enviar"
+      },
+      "button": "Enviar"
+    },
+    "work":{
+      "title": "Trabalho",
+      "subtitle": "Minha trayectoria profissional",
+      "button": "See more details"
+    },
+    "alerts": {
+      "nameInvalid": {
+        "title": "Nome inválido",
+        "text": "Por favor, insira um nome válido (mínimo de 3 caracteres)."
+      },
+      "emailInvalid": {
+        "title": "Email inválido",
+        "text": "Por favor, insira um e-mail válido."
+      },
+      "subjectShort": {
+        "title": "Assunto muito curto",
+        "text": "O assunto deve ter pelo menos 4 caracteres se for preenchido."
+      },
+      "messageShort": {
+        "title": "Mensagem muito curta",
+        "text": "Por favor, escreva uma mensagem mais detalhada (mínimo de 10 caracteres)."
+      },
+      "messageSent": {
+        "title": "Mensagem enviada",
+        "text": "Obrigado por entrar em contato. Responderei em breve.",
+        "confirmButton": "Aceitar"
+      }
+    }
+  },
+  "Phrases": {
+    "1": "Desenvolvedor web profissional especializado em criar experiências digitais excecionais.",
+    "2": "Apaixonado por design limpo e código eficiente.",
+    "3": "Transformo ideias em websites funcionais e atrativos.",
+    "4": "O teu projeto digital, feito com precisão e criatividade."
+  }
+}

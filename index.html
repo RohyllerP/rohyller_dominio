@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/img/logo-roro.png">
+    <title>Portofolio - Rohyller</title>
+</head>
+
+<body class="body">
+    <header class="header">
+        <nav>
+            <div class="navbar">
+                <div>
+                    <a href="#"> <img src="./assets/img/logo-roro.png" alt="Logo"></a>
+                </div>
+                <ul class="ul-navbar-desktop">
+                    <li><a href="#about" data-i18n="nav.about">Sobre mí</a></li>
+                    <li><a href="#projects" data-i18n="nav.projects">Proyectos</a></li>
+                    <li><a href="#certifications" data-i18n="nav.certificates">Certificados</a></li>
+                    <li><a href="#education" data-i18n="nav.education">Educación</a></li>
+                    <li><a href="#work" data-i18n="nav.work">Trabajo</a></li>
+                    <li><a href="#contact" data-i18n="nav.contact">Contacto</a></li>
+                </ul>
+                <div class="dropdown" id="languageDropdown">
+                    <div class="dropdown-label" id="selectedLanguage">ES</div>
+                    <div class="dropdown-content">
+                        <div data-lang="ES" data-i18n="Languages.es">Español</div>
+                        <div data-lang="EN" data-i18n="Languages.en">Inglés</div>
+                        <div data-lang="PT" data-i18n="Languages.pt">Portugués</div>
+                    </div>
+                </div>
+                <div class="menu" id="menuBtn">
+                    <img class="grayscale" src="./assets/icons/menu-blue.png" alt="menu" id="menuImg">
+                </div>
+                <!-- Menú móvil -->
+                <ul class="menu-mobile active" id="mobileMenu">
+                    <li><a href="#about" data-i18n="nav.about">Sobre mí</a></li>
+                    <li><a href="#projects" data-i18n="nav.projects">Proyectos</a></li>
+                    <li><a href="#certifications" data-i18n="nav.certificates">Certificados</a></li>
+                    <li><a href="#education" data-i18n="nav.education">Educación</a></li>
+                    <li><a href="#work" data-i18n="nav.work">Trabajo</a></li>
+                    <li><a href="#contact" data-i18n="nav.contact">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div id="overlayContent" style="opacity: 1;">
+        <main class="main">
+            <section class="header-main">
+                <div class="main-text-header">
+                    <div>
+                        <h1>
+                            <span data-i18n="Main.home.title">Hola,</span>
+                            <span data-i18n="Main.home.title_two" class="color-animate">soy Rohyller</span>
+                        </h1>
+                    </div>
+                    <div>
+                        <span id="rotatingText"></span>
+                    </div>
+                    <div class="main-text-header-button">
+                        <div class="btn-header-1">
+                            <a href="#projects" data-i18n="Main.home.button">Ver proyectos</a>
+                        </div>
+                        <div class="btn-header-2">
+                            <a href="#contact" data-i18n="Main.home.button_two">Contactar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-img-header">
+                    <img src="./assets/img/main.png" alt="Rohyller">
+                </div>
+            </section>
+            <section class="about section animate-on-scroll hidden " id="about">
+                <div class="about-1-div">
+                    <div class="div-circle">
+                        <span data-i18n="Main.about.title">Sobre mi</span>
+                    </div>
+                    <div class="about-text">
+                        <div>
+                            <h2 data-i18n="Main.about.subtitle">Conoce mi historia</h2>
+                        </div>
+                        <div>
+                            <p data-i18n="Main.about.paragraph1">
+                                Mi pasión por la tecnología nació del deseo de construir soluciones que realmente
+                                aporten valor a las personas. No se trata solo de escribir código, sino de comprender
+                                problemas, idear respuestas inteligentes y traducirlas en experiencias digitales
+                                intuitivas y funcionales. Desde mis inicios he buscado equilibrar lo técnico con lo
+                                humano, convencido de que el desarrollo web es una herramienta poderosa cuando se pone
+                                al servicio de necesidades reales.
+                            </p>
+                        </div>
+                        <div>
+                            <p data-i18n="Main.about.paragraph2">
+                                A lo largo de mi carrera he trabajado con diversas tecnologías y metodologías, lo que me
+                                ha enseñado a adaptarme con rapidez y a priorizar siempre la calidad. Disfruto colaborar
+                                con equipos multidisciplinarios, compartir conocimientos y mantener una mentalidad de
+                                mejora constante. Creo en escribir código limpio, en construir productos sostenibles y
+                                en aprender algo nuevo cada día.
+                            </p>
+                        </div>
+                        <div>
+                            <p data-i18n="Main.about.paragraph3">
+                                Más allá de las herramientas que uso, lo que realmente me impulsa es la posibilidad de
+                                crear algo significativo. Busco involucrarme en proyectos con propósito, rodeado de
+                                personas comprometidas, donde la tecnología no sea el fin, sino el medio para generar un
+                                impacto positivo. Esa es la visión que guía cada paso de mi camino profesional.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-2-div">
+                    <div>
+                        <div class="about-skill-img-1 about-skill-img">
+                            <img src="./assets/icons/smile.png" alt="smiling face">
+                        </div>
+                        <div>
+                            <h3 data-i18n="Main.about.skill1.title">Diseño UI/UX</h3>
+                        </div>
+                        <div>
+                            <p data-i18n="Main.about.skill1.desc">Creación de interfaces atractivas y experiencias de
+                                usuario intuitivas.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="about-skill-img-2 about-skill-img">
+                            <img src="./assets/icons/code.png" alt="coding">
+                        </div>
+                        <div>
+                            <h3 data-i18n="Main.about.skill2.title">Desarrollo Frontend</h3>
+                        </div>
+                        <div>
+                            <p data-i18n="Main.about.skill2.desc">Construcción de interfaces modernas y responsivas con
+                                las últimas tecnologías.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="about-skill-img-1 about-skill-img">
+                            <img src="./assets/icons/backend-coding.png" alt="coding backend">
+                        </div>
+                        <div>
+                            <h3 data-i18n="Main.about.skill3.title">Desarrollo Backend</h3>
+                        </div>
+                        <div>
+                            <p data-i18n="Main.about.skill3.desc">Creación de APIs robustas y sistemas escalables para
+                                aplicaciones web.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="projects section animate-on-scroll hidden" id="projects">
+                <div class="div-circle">
+                    <span data-i18n="Main.project.title">Proyectos</span>
+                </div>
+                <div class="projects-text">
+                    <div>
+                        <h2 data-i18n="Main.project.subtitle">Conoce mi historia</h2>
+                    </div>
+                    <div>
+                        <p data-i18n="Main.project.paragraph1">Mis Proyectos Destacados.</p>
+                    </div>
+                </div>
+                <div class="projects-card">
+                    <div>
+                        <div class="project-card-img">
+                            <a class="btn-oculto" href="#" data-i18n="Main.project.button" target="_blank">Ver
+                                detalles</a>
+                            <img src="./assets/img/tic-tac-toe.png" alt="project tic tac toe">
+                        </div>
+                        <div class="project-card-body">
+                            <div>
+                                <h3 data-i18n="Main.project.items.0.title">Tic Tac Toe</h3>
+                            </div>
+                            <div>
+                                <p data-i18n="Main.project.items.0.description">Un juego clásico de Tic Tac Toe
+                                    desarrollado con lógica simple e interfaz interactiva para dos jugadores.</p>
+                            </div>
+                        </div>
+                        <div class="lenguajes">
+                            <div>
+                                HTML
+                            </div>
+                            <div>
+                                CSS
+                            </div>
+                            <div>
+                                VUE JS
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="project-card-img">
+                            <a class="btn-oculto" href="#" data-i18n="Main.project.button" target="_blank">Ver
+                                detalles</a>
+                            <img src="./assets/img/cartas.png" alt="project cartas">
+                        </div>
+                        <div class="project-card-body">
+                            <div>
+                                <h3 data-i18n="Main.project.items.1.title">Cartas de memoria</h3>
+                            </div>
+                            <div>
+                                <p data-i18n="Main.project.items.1.description">Juego de cartas de memoria con
+                                    temporizador integrado que reta a mejorar tu mejor tiempo en la web..</p>
+                            </div>
+                        </div>
+                        <div class="lenguajes">
+                            <div>
+                                HTML
+                            </div>
+                            <div>
+                                CSS
+                            </div>
+                            <div>
+                                Javascript
+                            </div>
+                            <div>
+                                Boostrap
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="project-card-img">
+                            <a class="btn-oculto" href="#" data-i18n="Main.project.button" target="_blank">Ver
+                                detalles</a>
+                            <img src="./assets/img/calculadora.png" alt="calculadora">
+                        </div>
+                        <div class="project-card-body">
+                            <div>
+                                <h3 data-i18n="Main.project.items.2.title">Calculadora</h3>
+                            </div>
+                            <div>
+                                <p data-i18n="Main.project.items.2.description">Calculadora web sencilla y funcional que
+                                    permite realizar operaciones básicas de forma rápida y precisa..</p>
+                            </div>
+                        </div>
+                        <div class="lenguajes">
+                            <div>
+                                HTML
+                            </div>
+                            <div>
+                                CSS
+                            </div>
+                            <div>
+                                Javascript
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="project-card-img">
+                            <a class="btn-oculto" href="#" data-i18n="Main.project.button" target="_blank">Ver
+                                detalles</a>
+                            <img src="./assets/img/notas.png" alt="notas">
+                        </div>
+                        <div class="project-card-body">
+                            <div>
+                                <h3 data-i18n="Main.project.items.3.title">Notas</h3>
+                            </div>
+                            <div>
+                                <p data-i18n="Main.project.items.3.description">Sitio web de lista de tareas con
+                                    categorías.
+                                    Permite crear, editar y eliminar tareas dentro de categorías personalizadas.
+                                    Los datos se guardan en LocalStorage para conservarse aunque se cierre la ventana.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="lenguajes">
+                            <div>
+                                HTML
+                            </div>
+                            <div>
+                                Boostrap
+                            </div>
+                            <div>
+                                Jquery
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="certifications section animate-on-scroll hidden" id="certifications">
+                <div class="div-circle">
+                    <span data-i18n="Main.certificate.title">Certificados</span>
+                </div>
+                <div class="certifications-text">
+                    <div>
+                        <h2 data-i18n="Main.certificate.subtitle">Mis Certificaciones</h2>
+                    </div>
+                    <div>
+                        <p data-i18n="Main.certificate.paragraph1">Certificaciones profesionales que avalan mis
+                            conocimientos y habilidades..</p>
+                    </div>
+                </div>
+                <div class="certifications-content">
+                    <div class="certifications-card">
+                        <div class="certifications-card-body">
+                            <div class="certifications-card-img">
+                                <div>
+                                    <img src="./assets/icons/literature.png" alt="literature book">
+                                </div>
+                                <div>
+                                    <h3 data-i18n="Main.certificate.items.0.title">Inglés A1</h3>
+                                    <span>Zifeng</span>
+                                </div>
+                            </div>
+                            <div class="certifications-card-date">
+                                <div>
+                                    <span data-i18n="Main.certificate.items.0.date">Junio 2022</span>
+                                </div>
+                                <div>
+                                    <a href="https://drive.google.com/file/d/15aw2TUrT_iT-PbhahENVw3htJXz8xZlg/view"
+                                        data-i18n="Main.certificate.button" target="_blank">Ver certificado</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="certifications-card-body">
+                            <div class="certifications-card-img">
+                                <div>
+                                    <img src="./assets/icons/literature.png" alt="literature">
+                                </div>
+                                <div>
+                                    <h3 data-i18n="Main.certificate.items.1.title">Inglés B1</h3>
+                                    <span>Zifeng</span>
+                                </div>
+                            </div>
+                            <div class="certifications-card-date">
+                                <div>
+                                    <span data-i18n="Main.certificate.items.1.date">Febrero 2023</span>
+                                </div>
+                                <div>
+                                    <a href="https://drive.google.com/file/d/1c3F0vXG-QMnM_nGCWJCO8Z-IO34U5xlE/view"
+                                        data-i18n="Main.certificate.button" target="_blank">Ver certificado</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="certifications-card-body">
+                            <div class="certifications-card-img">
+                                <div>
+                                    <img src="./assets/icons/literature.png" alt="literature">
+                                </div>
+                                <div>
+                                    <h3 data-i18n="Main.certificate.items.2.title">Inglés C1</h3>
+                                    <span>Zifeng</span>
+                                </div>
+                            </div>
+                            <div class="certifications-card-date">
+                                <div>
+                                    <span data-i18n="Main.certificate.items.2.date">Octubre 2023</span>
+                                </div>
+                                <div>
+                                    <a href="https://drive.google.com/file/d/136-nYjwbHS8DXtz7SOHy59JsqCey8dpu/view?usp=sharing"
+                                        data-i18n="Main.certificate.button" target="_blank">Ver certificado</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="certifications-card-body">
+                            <div class="certifications-card-img">
+                                <div>
+                                    <img src="./assets/icons/python.png" alt="python logo">
+                                </div>
+                                <div>
+                                    <h3 data-i18n="Main.certificate.items.3.title">Taller de Python</h3>
+                                    <span>Gracosoft</span>
+                                </div>
+                            </div>
+                            <div class="certifications-card-date">
+                                <div>
+                                    <span data-i18n="Main.certificate.items.3.date">Octubre 2022</span>
+                                </div>
+                                <div>
+                                    <a href="https://drive.google.com/file/d/1P0t4M3TOl2IQgzGsgx-NpeHQJ8Nc6kgJ/view"
+                                        data-i18n="Main.certificate.button" target="_blank">Ver certificado</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="certifications-card-body">
+                            <div class="certifications-card-img">
+                                <div>
+                                    <img src="./assets/icons/c-sharp.png" alt="c-sharp logo">
+                                </div>
+                                <div>
+                                    <h3 data-i18n="Main.certificate.items.4.title">Modelo vista controlador - C#</h3>
+                                    <span>Gracosoft</span>
+                                </div>
+                            </div>
+                            <div class="certifications-card-date">
+                                <div>
+                                    <span data-i18n="Main.certificate.items.4.date">Octubre 2022</span>
+                                </div>
+                                <div>
+                                    <a href="https://drive.google.com/file/d/19pIeLeNql8Rh1qa0A46tDf5GlSqZsLmr/view"
+                                        data-i18n="Main.certificate.button" target="_blank">Ver certificado</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="certifications-card-body">
+                            <div class="certifications-card-img">
+                                <div>
+                                    <img src="./assets/icons/photoshop.png" alt="photoshop logo">
+                                </div>
+                                <div>
+                                    <h3 data-i18n="Main.certificate.items.5.title">Photoshop de cero a experto</h3>
+                                    <span>Udemy</span>
+                                </div>
+                            </div>
+                            <div class="certifications-card-date">
+                                <div>
+                                    <span data-i18n="Main.certificate.items.5.date">Febrero 2024</span>
+                                </div>
+                                <div>
+                                    <a href="https://drive.google.com/file/d/1dVl7geZ-NHX4ESOvHqNQbJn9NXoLaqCx/view"
+                                        data-i18n="Main.certificate.button" target="_blank">Ver certificado</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="certifications-card-body">
+                            <div class="certifications-card-img">
+                                <div>
+                                    <img src="./assets/icons/google.png" alt="Google activate">
+                                </div>
+                                <div>
+                                    <h3 data-i18n="Main.certificate.items.6.title">Introduccion al desarrollo web 1</h3>
+                                    <span>Google activate</span>
+                                </div>
+                            </div>
+                            <div class="certifications-card-date">
+                                <div>
+                                    <span data-i18n="Main.certificate.items.6.date">Octubre 2020</span>
+                                </div>
+                                <div>
+                                    <a href="https://drive.google.com/file/d/1KXb-8l7XET5SZ1f6BJphaS9A6qf4F4H_/view"
+                                        data-i18n="Main.certificate.button" target="_blank">Ver certificado</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="certifications-card-body">
+                            <div class="certifications-card-img">
+                                <div>
+                                    <img src="./assets/icons/frontend.png" alt="fronted web developer">
+                                </div>
+                                <div>
+                                    <h3 data-i18n="Main.certificate.items.7.title">Frontend web developer</h3>
+                                    <span>Udemy</span>
+                                </div>
+                            </div>
+                            <div class="certifications-card-date">
+                                <div>
+                                    <span data-i18n="Main.certificate.items.7.date">Agosto 2021</span>
+                                </div>
+                                <div>
+                                    <a href="https://drive.google.com/file/d/19IMdmjeyN2vZBshjTIX8argy-FJO3AqG/view"
+                                        data-i18n="Main.certificate.button" target="_blank">Ver certificado</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="education section animate-on-scroll hidden" id="education">
+                <div class="div-circle">
+                    <span data-i18n="Main.education.title">Educación</span>
+                </div>
+                <div class="education-text">
+                    <div>
+                        <h2 data-i18n="Main.education.subtitle">Mi Trayectoria Académica</h2>
+                    </div>
+                    <div>
+                        <p data-i18n="Main.education.paragraph1">Mi formación académica y cursos especializados.</p>
+                    </div>
+                </div>
+                <div class="education-cards">
+                    <div class="education-card">
+                        <div class="timeline-marker">
+                            <div class="circle"></div>
+                            <div class="line"></div>
+                        </div>
+                        <div class="education-card-box">
+                            <div class="div-circle div-circle-two">
+                                <span>2022-2023</span>
+                            </div>
+                            <div class="education-card-body">
+                                <div>
+                                    <h4 data-i18n="Main.education.items.0.title">Carrera técnica Fundamentos de
+                                        programación</h4>
+                                </div>
+                                <div>
+                                    <span data-i18n="Main.education.items.0.subtitle">Academia CADIF1</span>
+                                </div>
+                                <div>
+                                    <p data-i18n="Main.education.items.0.desc">Formación técnica en fundamentos de
+                                        programación, con enfoque en lógica
+                                        computacional, algoritmos con PSeInt e introducción a la programación orientada
+                                        a objetos.</p>
+                                </div>
+                                <div>
+                                    <a href="https://drive.google.com/file/d/1fwjCP1mKpQdxxAh7GVUU56lgq-ogEbct/view?usp=sharing"
+                                        target="_blank" data-i18n="Main.education.button">Ver certificado</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="education-card">
+                        <div class="timeline-marker">
+                            <div class="circle"></div>
+                            <div class="line"></div>
+                        </div>
+                        <div class="education-card-box">
+                            <div class="div-circle div-circle-two">
+                                <span>2022-2023</span>
+                            </div>
+                            <div class="education-card-body">
+                                <div>
+                                    <h4 data-i18n="Main.education.items.1.title">Carrera técnica Frontend Junior</h4>
+                                </div>
+                                <div>
+                                    <span data-i18n="Main.education.items.1.subtitle">Academia CADIF1</span>
+                                </div>
+                                <div>
+                                    <p data-i18n="Main.education.items.1.desc">La carrera técnica de Frontend Junior
+                                        abarca el desarrollo de interfaces web con
+                                        HTML, CSS y JavaScript. Incluye el uso de preprocesadores como Sass y la
+                                        implementación de frameworks de CSS para optimizar el diseño. Se enfoca en la
+                                        creación de sitios web modernos, accesibles y responsivos.</p>
+                                </div>
+                                <div>
+                                    <a href="https://drive.google.com/file/d/12l9YegI8p2EBZjmcKw2KMJqcJhn5LI8v/view?usp=sharing"
+                                        data-i18n="Main.education.button" target="_blank">Ver certificado</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="education-card">
+                        <div class="timeline-marker">
+                            <div class="circle"></div>
+                            <div class="line"></div>
+                        </div>
+                        <div class="education-card-box">
+                            <div class="div-circle div-circle-two">
+                                <span>2023-2024</span>
+                            </div>
+                            <div class="education-card-body">
+                                <div>
+                                    <h4 data-i18n="Main.education.items.2.title">Carrera técnica Frontend master</h4>
+                                </div>
+                                <div>
+                                    <span data-i18n="Main.education.items.2.subtitle">Academia CADIF1</span>
+                                </div>
+                                <div>
+                                    <p data-i18n="Main.education.items.2.desc">El programa de Frontend Master se centra
+                                        en el uso avanzado de frameworks y tecnologías modernas para el desarrollo web.
+                                        Incluye el aprendizaje de frameworks como AngularJS, ReactJS y VueJS, así como
+                                        el desarrollo de aplicaciones móviles híbridas con Ionic. También abarca el uso
+                                        de TypeScript para mejorar la calidad y escalabilidad del código JavaScript.</p>
+                                </div>
+                                <div>
+                                    <a href="https://drive.google.com/file/d/1CtsSF3nwIsuxDZBuLNWc_JeIyDFzyRME/view?usp=sharing"
+                                        data-i18n="Main.education.button" target="_blank">Ver certificado</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="education-card">
+                        <div class="timeline-marker">
+                            <div class="circle"></div>
+                            <div class="line"></div>
+                        </div>
+                        <div class="education-card-box">
+                            <div class="div-circle div-circle-two">
+                                <span data-i18n="Main.education.items.3.date">2024-actual</span>
+                            </div>
+                            <div class="education-card-body">
+                                <div>
+                                    <h4 data-i18n="Main.education.items.3.title">Carrera técnica Frontend master</h4>
+                                </div>
+                                <div>
+                                    <span data-i18n="Main.education.items.3.subtitle">Academia CADIF1</span>
+                                </div>
+                                <div>
+                                    <p data-i18n="Main.education.items.3.desc">La carrera técnica de Node.js se enfoca
+                                        en el desarrollo backend con JavaScript del lado del servidor. Incluye el uso
+                                        del framework Express para construir APIs, el manejo de bases de datos
+                                        relacionales con MySQL, y el estudio de los fundamentos de bases de datos.
+                                        Además, abarca el desarrollo de aplicaciones de escritorio multiplataforma
+                                        utilizando Electron.</p>
+                                </div>
+                                <div>
+                                    <a href="#" data-i18n="Main.education.button" target="_blank"
+                                        class="button-disabled">Ver certificado</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="education-card">
+                        <div class="timeline-marker">
+                            <div class="circle"></div>
+                            <div class="line"></div>
+                        </div>
+                        <div class="education-card-box">
+                            <div class="div-circle div-circle-two">
+                                <span data-i18n="Main.education.items.4.date">2025-actual</span>
+                            </div>
+                            <div class="education-card-body">
+                                <div>
+                                    <h4 data-i18n="Main.education.items.4.title">Curso de Diseño y Programación Web</h4>
+                                </div>
+                                <div>
+                                    <span data-i18n="Main.education.items.4.subtitle">Academia masterd</span>
+                                </div>
+                                <div>
+                                    <p data-i18n="Main.education.items.4.desc">El Curso de Diseño y Programación Web
+                                        tiene como objetivo preparar a los estudiantes con los conocimientos y
+                                        habilidades necesarias para iniciar su carrera profesional como Diseñadores Web,
+                                        Desarrolladores Web o Desarrolladores Full-stack. El programa incluye el uso de
+                                        PHP, diseño de experiencia de usuario (UX) e interfaz (UI), desarrollo con
+                                        WordPress, JavaScript y AJAX, así como el manejo de bases de datos MySQL..</p>
+                                </div>
+                                <div>
+                                    <a href="#" data-i18n="Main.education.button" target="_blank"
+                                        class="button-disabled">Ver certificado</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="work section animate-on-scroll hidden" id="work">
+                <div class="div-circle">
+                    <span data-i18n="Main.work.title">Trabajos</span>
+                </div>
+                <div class="work-text">
+                    <div>
+                        <h2 data-i18n="Main.work.subtitle">Mis proyectos</h2>
+                    </div>
+                    <div>
+                        <p data-i18n="Main.work.paragraph">Aqui puedes ver algunos de mis proyectos.</p>
+                    </div>
+                </div>
+                <div class="work-cards animate-on-scroll hidden">
+                    <div class="work-card">
+                        <div class="timeline-marker">
+                            <div class="circle"></div>
+                            <div class="line"></div>
+                        </div>
+                        <div class="work-card-box">
+                            <div>
+                                <h4>Técnico en Desarrollo de Soluciones Informáticas</h4>
+                            </div>
+                            <div class="work-card-info-company">
+                                <div>
+                                    <div>
+                                        <span>Trabajos digitales Chile</span>
+                                    </div>
+                                </div>
+                                <div class="div-circle-3">
+                                    2022-2025
+                                </div>
+                            </div>
+                            <div class="work-card-info">
+                                <div class="location">
+                                    <img src="./assets/icons/location-2.png" alt="location">
+                                    <span>Chile (Remoto)</span>
+                                </div>
+                                <div class="div-circle-2">
+                                    Tiempo completo
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact section animate-on-scroll hidden" id="contact">
+                <div class="div-circle">
+                    <span data-i18n="Main.contact.title">Contacto</span>
+                </div>
+                <div class="contact-text">
+                    <div>
+                        <h2 data-i18n="Main.contact.subtitle">¡Hablemos!</h2>
+                    </div>
+                    <div>
+                        <p data-i18n="Main.contact.paragraph1">¿Interesado en trabajar juntos? Ponte en contacto
+                            conmigo.</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <div class="contact-info-box contact-div-one">
+                        <h4 data-i18n="Main.contact.subtitle">Información de contacto</h4>
+                        <div class="contact-info-container">
+                            <div class="contact-info">
+                                <div class="contact-icon">
+                                    <img src="./assets/icons/email.png" alt="email">
+                                </div>
+                                <div class="contact-info-text">
+                                    <div>
+                                        <span data-i18n="Main.contact.email">Correo</span>
+                                    </div>
+                                    <div>
+                                        <a href="mailto:rohyllerpereira@gmail.com">rohyllerpereira@gmail.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact-info">
+                                <div class="contact-icon">
+                                    <img src="./assets/icons/telephone.png" alt="telefono">
+                                </div>
+                                <div class="contact-info-text">
+                                    <div>
+                                        <span data-i18n="Main.contact.phone">Telefono</span>
+                                    </div>
+                                    <div>
+                                        <a href="tel:+573012345678">+351935437494</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact-info">
+                                <div class="contact-icon">
+                                    <img src="./assets/icons/location.png" alt="location">
+                                </div>
+                                <div class="contact-info-text">
+                                    <div>
+                                        <span data-i18n="Main.contact.location">Ubicación</span>
+                                    </div>
+                                    <div>
+                                        <p>Aveiro, Portugal</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h5 data-i18n="Main.contact.redes">Redes Sociales</h5>
+                        <div class="social-media">
+                            <div>
+                                <a href="www.linkedin.com/in/rohyller-pereira-albarran-97b7b01b7" target="_blank">
+                                    <img src="./assets/icons/linkedin.png" alt="linkedin">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://github.com/RohyllerP" target="_blank">
+                                    <img src="./assets/icons/github.png" alt="github">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.instagram.com/roro_developer/" target="_blank">
+                                    <img src="./assets/icons/instagram.png" alt="instagram">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-div-two" id="formContact" method="post"
+                        action="https://formsubmit.co/rohyler@gmail.com">
+                        <input type="hidden" name="_captcha" value="false">
+                        <h4 data-i18n="Main.contact.form.title">Envíame un mensaje</h4>
+                        <p data-i18n="Main.contact.form.subtitle">Completa el formulario y me pondré en contacto contigo
+                            lo antes posible.</p>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label data-i18n="Main.contact.form.name">Nombre</label>
+                                <input type="text" data-i18n="[placeholder]Main.contact.form.name_placeholder"
+                                    placeholder="Tu nombre" name="name">
+                            </div>
+                            <div class="form-group">
+                                <label data-i18n="Main.contact.form.email">Correo</label>
+                                <input type="email" placeholder="tucorreo@ejemplo.com" name="email"
+                                    data-i18n="[placeholder]Main.contact.form.email_placeholder">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label data-i18n="Main.contact.form.subject">Asunto</label>
+                            <input type="text" placeholder="Asunto del mensaje" name="subject"
+                                data-i18n="[placeholder]Main.contact.form.subject_placeholder">
+                        </div>
+
+                        <div class="form-group">
+                            <label data-i18n="Main.contact.form.message">Mensaje</label>
+                            <textarea placeholder="Tu mensaje" name="message"
+                                data-i18n="[placeholder]Main.contact.form.message_placeholder"></textarea>
+                        </div>
+
+                        <button type="submit" data-i18n="Main.contact.button">
+                            <img src="./assets/icons/send.png" alt="Icono enviar">
+                            <span class="send-text" data-i18n="Main.contact.button">Enviar</span>
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="navbar-footer">
+                <ul class="">
+                    <li><a href="#about" data-i18n="nav.about">Sobre mí</a></li>
+                    <li><a href="#projects" data-i18n="nav.projects">Proyectos</a></li>
+                    <li><a href="#certifications" data-i18n="nav.certificates">Certificados</a></li>
+                    <li><a href="#education" data-i18n="nav.education">Educación</a></li>
+                    <li><a href="#work" data-i18n="nav.work">Trabajo</a></li>
+                    <li><a href="#contact" data-i18n="nav.contact">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-text">
+                <p>© 2023 Rohyler Pereira. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+        emailjs.init("user_UushOVdjmrVkrkuAorUtm");
+    </script>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/form.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,199 @@
+{
+  "nav": {
+    "about": "About Me",
+    "projects": "Projects",
+    "certificates": "Certificates",
+    "education": "Education",
+    "work": "Work",
+    "contact": "Contact"
+  },
+  "Languages": {
+    "en": "English",
+    "pt": "Portuguese",
+    "es": "Spanish"
+  },
+  "Main": {
+    "home": {
+      "title": "Hello, ",
+      "title_two": "I'm Rohyller",
+      "button": "See my projects",
+      "button_two": "See my certificates"
+    },
+    "about": {
+      "title": "About me",
+      "subtitle": "Discover my story",
+      "paragraph1": "My passion for technology was born from the desire to build solutions that truly add value to people’s lives. It’s not just about writing code, but about understanding problems, crafting smart responses, and translating them into intuitive and functional digital experiences. From the start, I have sought to balance the technical with the human side, believing that web development is a powerful tool when put at the service of real needs.",
+      "paragraph2": "Throughout my career, I have worked with various technologies and methodologies, which has taught me to adapt quickly and always prioritize quality. I enjoy collaborating with multidisciplinary teams, sharing knowledge, and maintaining a mindset of continuous improvement. I believe in writing clean code, building sustainable products, and learning something new every day.",
+      "paragraph3": "Beyond the tools I use, what truly drives me is the possibility of creating something meaningful. I seek to be involved in purposeful projects, surrounded by committed people, where technology is not the end but the means to generate positive impact. This vision guides every step of my professional journey.",
+      "skill1": {
+        "title": "UI/UX Design",
+        "desc": "Creating appealing interfaces and intuitive user experiences."
+      },
+      "skill2": {
+        "title": "Frontend Development",
+        "desc": "Building modern and responsive interfaces using the latest technologies."
+      },
+      "skill3": {
+        "title": "Backend Development",
+        "desc": "Creating robust APIs and scalable systems for web applications."
+      }
+    },
+    "project": {
+      "title": "Projects",
+      "subtitle": "Highlighted Projects",
+      "paragraph1": "A selection of the most destacated projects in which I have worked.",
+      "items": [
+        {
+          "title": "Tic Tac Toe",
+          "description": "A classic Tic Tac Toe game developed with simple logic and interactive interface for two players."
+        },
+        {
+          "title": "Memory Card Game",
+          "description": "Memory card game with integrated timer that challenges to improve your best time on the web."
+        },
+        {
+          "title": "Calculator",
+          "description": "Simple and functional web calculator that allows you to perform basic operations quickly and accurately..."
+        },
+        {
+          "title": "Notes",
+          "description": "Web list of tasks with categories. Allows you to create, edit and delete tasks within personalized categories. The data is saved in LocalStorage to be kept even if the window is closed"
+        }
+      ],
+      "button": "See more details"
+    },
+    "certificate": {
+      "title": "Certificates",
+      "subtitle": "My certifications",
+      "paragraph1": "Professional certifications that validate my knowledge and skills.",
+      "button": "See certificate",
+      "items": [
+        {
+          "title": "English A1",
+          "date": "June 2022"
+        },
+        {
+          "title": "English B1",
+          "date": "February 2023"
+        },
+        {
+          "title": "English C1",
+          "date": "October 2023"
+        },
+        {
+          "title": "Python Workshop",
+          "date": "October 2022"
+        },
+        {
+          "title": "Modelo vista controlador - C#",
+          "date": "October 2022"
+        },
+        {
+          "title": "Photoshop from zero to expert",
+          "date": "February 2024"
+        },
+        {
+          "title": "Introduction to web development 1",
+          "date": "October 2020"
+        },
+        {
+          "title": "Frontend web developer",
+          "date": "August 2021"
+        }
+      ]
+    },
+    "education": {
+      "title": "Education",
+      "subtitle": "My Academic History",
+      "paragraph1": "My academic background and specialized courses.",
+      "button": "See more details",
+      "items": [
+        {
+          "title": "Technical Program in Programming Fundamentals",
+          "subtitle": "Academy CADIF1",
+          "desc": "Technical program in programming fundamentals, with a focus on computational logic, algorithms with PSeInt and an introduction to programming oriented to objects."
+        },
+        {
+          "title": "Technical Program in frontend junior",
+          "subtitle": "Academy CADIF1",
+          "desc": "The Junior Frontend technical course covers the development of web interfaces using HTML, CSS, and JavaScript. It includes the use of preprocessors like Sass and the implementation of CSS frameworks to optimize design. The focus is on creating modern, accessible, and responsive websites."
+        },
+        {
+          "title": "Frontend Master Technical Program",
+          "subtitle": "CADIF1 Academy",
+          "desc": "The Frontend Master program focuses on the advanced use of frameworks and modern technologies for web development. It includes learning frameworks such as AngularJS, ReactJS, and VueJS, as well as developing hybrid mobile applications with Ionic. It also covers the use of TypeScript to enhance code quality and scalability in JavaScript."
+        },
+        {
+          "title": "Backend Technical Program with Node.js",
+          "subtitle": "CADIF1 Academy",
+          "desc": "The Frontend Master program focuses on the advanced use of frameworks and modern technologies for web development. It includes learning frameworks such as AngularJS, ReactJS, and VueJS, as well as developing hybrid mobile applications with Ionic. It also covers the use of TypeScript to improve the quality and scalability of JavaScript code.",
+          "date": "2024-present"
+        },
+        {
+          "title": "Curso de Design e Programação Web",
+          "subtitle": "Academia MasterD",
+          "desc": "O Curso de Design e Programação Web tem como objetivo preparar os estudantes com os conhecimentos e competências necessárias para iniciar a sua carreira profissional como Designers Web, Desenvolvedores Web ou Desenvolvedores Full-stack. O programa inclui o uso de PHP, design de experiência do utilizador (UX) e interface (UI), desenvolvimento com WordPress, JavaScript e AJAX, bem como a gestão de bases de dados MySQL.",
+          "date": "2025-atual"
+        }
+      ]
+    },
+    "work":{
+      "title": "Work",
+      "subtitle": "My Professional History",
+      "paragraph": "My work experience and professional background.",
+      "button": "See more details"
+    },
+    "contact": {
+      "title": "Contact",
+      "subtitle": "Contact Me",
+      "paragraph1": "Interested in working together? Get in touch with me.",
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location",
+      "redes": "Social Networks",
+      "form": {
+        "title": "Send me a message",
+        "subtitle": "Fill out the form and I'll get back to you as soon as possible.",
+        "name": "Name",
+        "name_placeholder": "Your name",
+        "email": "Email",
+        "email_placeholder": "youremail@example",
+        "subject": "Subject",
+        "subject_placeholder": "Subject of the message",
+        "message": "Message",
+        "message_placeholder": "Your message",
+        "send": "Send"
+      },
+      "button": "Send"
+    },
+    "alerts": {
+      "nameInvalid": {
+        "title": "Invalid name",
+        "text": "Please enter a valid name (at least 3 characters)."
+      },
+      "emailInvalid": {
+        "title": "Invalid email",
+        "text": "Please enter a valid email address."
+      },
+      "subjectShort": {
+        "title": "Subject too short",
+        "text": "Subject must be at least 4 characters if filled in."
+      },
+      "messageShort": {
+        "title": "Message too short",
+        "text": "Please write a more detailed message (minimum 10 characters)."
+      },
+      "messageSent": {
+        "title": "Message sent",
+        "text": "Thank you for contacting me. I will get back to you soon.",
+        "confirmButton": "OK"
+      }
+    }
+  },
+  "Phrases": {
+    "1": "Professional web developer specialized in creating exceptional digital experiences.",
+    "2": "Passionate about clean design and efficient code.",
+    "3": "I transform ideas into functional and attractive websites.",
+    "4": "Your digital project, crafted with precision and creativity."
+  }
+}
