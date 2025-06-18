@@ -1151,6 +1151,11 @@ footer {
             }
         }
     }
+    .footer-text{
+        @media screen and (max-width: 568px) {
+            font-size: 14px;
+        }
+    }
 }
 
 .div-circle {
@@ -1207,7 +1212,6 @@ footer {
 /* scroll */
 /* Oculto por defecto */
 .section {
-    scroll-margin-top: 80px;
     transition: opacity 1s ease-in-out;
 }
 

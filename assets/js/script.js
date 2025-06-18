@@ -98,8 +98,19 @@ menuBtn.addEventListener('click', () => {
   menuImg.classList.toggle('color');
   dropdown.style.display = dropdown.style.display === 'none' ? 'block' : 'none';
   mobileMenu.classList.toggle('active');
-});
 
+});
+const menuItems = mobileMenu.querySelectorAll('li');
+
+menuItems.forEach(link => {
+  link.addEventListener('click', () => {
+    bodyMenu.style.opacity = '1';
+    menuImg.classList.toggle('grayscale');
+    menuImg.classList.toggle('color');
+    dropdown.style.display = 'none';
+    mobileMenu.classList.toggle('active');
+  });
+});
 
 // words animation
 let phrasesInterval;
@@ -190,3 +201,25 @@ document.addEventListener('DOMContentLoaded', () => {
     workObserver.observe(workSection);
   }
 });
+
+
+// script para scroller
+document.querySelectorAll('a[href^="#"]').forEach(link => {
+  link.addEventListener("click", function (e) {
+    const targetId = this.getAttribute("href").substring(1);
+    const target = document.getElementById(targetId);
+    const offset = 80; // ajusta a la altura real de tu navbar
+
+    if (target) {
+      e.preventDefault();
+      const scrollTop = target.getBoundingClientRect().top + window.scrollY - offset;
+
+      window.scrollTo({
+        top: scrollTop,
+        behavior: "smooth"
+      });
+    }
+  });
+});
+
+// script para menu
