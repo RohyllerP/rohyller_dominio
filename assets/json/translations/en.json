@@ -130,14 +130,14 @@
           "date": "2024-present"
         },
         {
-          "title": "Curso de Design e Programação Web",
-          "subtitle": "Academia MasterD",
-          "desc": "O Curso de Design e Programação Web tem como objetivo preparar os estudantes com os conhecimentos e competências necessárias para iniciar a sua carreira profissional como Designers Web, Desenvolvedores Web ou Desenvolvedores Full-stack. O programa inclui o uso de PHP, design de experiência do utilizador (UX) e interface (UI), desenvolvimento com WordPress, JavaScript e AJAX, bem como a gestão de bases de dados MySQL.",
-          "date": "2025-atual"
+          "title": "Web Design and Development Course",
+          "subtitle": "MasterD Academy",
+          "desc": "The Web Design and Development Course aims to equip students with the knowledge and skills necessary to start their professional careers as web designers, web developers, or full-stack developers. The program includes the use of PHP, user experience (UX) and user interface (UI) design, development with WordPress, JavaScript and AJAX, as well as MySQL database management.",
+          "date": "2025-present"
         }
       ]
     },
-    "work":{
+    "work": {
       "title": "Work",
       "subtitle": "My Professional History",
       "paragraph": "My work experience and professional background.",

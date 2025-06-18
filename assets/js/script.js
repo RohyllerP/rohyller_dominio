@@ -1,6 +1,7 @@
 const dropdown = document.getElementById('languageDropdown');
 const label = document.getElementById('selectedLanguage');
 const options = dropdown.querySelectorAll('.dropdown-content div');
+const linkResume = document.getElementById('linkResume');
 window.currentTranslations = {};
 window.getTranslation = function (key) {
   const keys = key.split('.');
@@ -58,7 +59,7 @@ async function loadLanguage(lang, callback) {
         if (text) el.textContent = text;
       }
     });
-
+    linkResume.href = `assets/pdf/cv_${lang}.pdf`;
     // ✅ Ejecutar callback cuando termina
     if (typeof callback === 'function') callback();
 
@@ -83,6 +84,7 @@ if (!savedLang) {
 
 label.textContent = savedLang.toUpperCase();
 loadLanguage(savedLang, rotatePhrases);
+linkResume.href = `assets/pdf/cv_${savedLang}.pdf`;
 
 // menu toggle
 const menuBtn = document.getElementById('menuBtn');
@@ -130,42 +132,61 @@ function rotatePhrases() {
 
 // animations scrolls
 document.addEventListener('DOMContentLoaded', () => {
+  // Animación general para elementos con .animate-on-scroll
   const animatedElements = document.querySelectorAll('.animate-on-scroll');
 
-  const observer = new IntersectionObserver(entries => {
+  const generalObserver = new IntersectionObserver(entries => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
-        const parent = entry.target;
-        parent.classList.add('visible');
-        parent.classList.remove('hidden');
-        
-        // Opcional: dejar de observar después de animar
-        observer.unobserve(parent);
-      }
-    });
-  }, {
-    threshold: 0.1
-  });
-
-  animatedElements.forEach(el => observer.observe(el));
-});
-document.addEventListener('DOMContentLoaded', () => {
-  const educationSection = document.getElementById('education');
-  const cards = educationSection.querySelectorAll('.education-card');
-
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        cards.forEach((card, index) => {
-          setTimeout(() => {
-            card.classList.add('visible');
-          }, index * 300); // 300ms entre cada tarjeta
-        });
-
-        observer.unobserve(educationSection);
+        const el = entry.target;
+        el.classList.add('visible');
+        el.classList.remove('hidden');
+        generalObserver.unobserve(el);
       }
     });
   }, { threshold: 0.1 });
 
-  observer.observe(educationSection);
+  animatedElements.forEach(el => generalObserver.observe(el));
+
+  // Animación especial para las tarjetas de educación
+  const educationSection = document.getElementById('education');
+  const educationCards = educationSection?.querySelectorAll('.education-card');
+
+  if (educationSection && educationCards?.length) {
+    const educationObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          educationCards.forEach((card, index) => {
+            setTimeout(() => {
+              card.classList.add('visible');
+            }, index * 300);
+          });
+          educationObserver.unobserve(educationSection);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    educationObserver.observe(educationSection);
+  }
+
+  // Animación especial para las tarjetas de trabajo
+  const workSection = document.getElementById('work-cards');
+  const workCards = workSection?.querySelectorAll('.work-card');
+
+  if (workSection && workCards?.length) {
+    const workObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          workCards.forEach((card, index) => {
+            setTimeout(() => {
+              card.classList.add('visible');
+            }, index * 300);
+          });
+          workObserver.unobserve(workSection);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    workObserver.observe(workSection);
+  }
 });
