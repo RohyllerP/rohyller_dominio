@@ -700,7 +700,10 @@ h2 {
 
     #work {
         width: 100%;
-
+        @media screen and (max-width: 568px) {
+            padding-top: 40px;
+            
+        }
         .work-text {
             text-align: center;
         }
