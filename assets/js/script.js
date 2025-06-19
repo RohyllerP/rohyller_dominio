@@ -107,7 +107,7 @@ menuItems.forEach(link => {
     bodyMenu.style.opacity = '1';
     menuImg.classList.toggle('grayscale');
     menuImg.classList.toggle('color');
-    dropdown.style.display = 'none';
+    dropdown.style.display = 'block';
     mobileMenu.classList.toggle('active');
   });
 });
