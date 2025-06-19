@@ -922,11 +922,11 @@ h2 {
                 }
 
                 .contact-info-text {
-                    span {
+                    span,p {
                         color: rgb(var(--color-text-gray));
                         font-size: 16.5px;
                     }
-
+                    
                     p,
                     a {
                         font-weight: bold;
