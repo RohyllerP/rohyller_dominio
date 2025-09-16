@@ -38,6 +38,18 @@
         "desc": "Creación de APIs robustas y sistemas escalables para aplicaciones web."
       }
     },
+    "project_professional": {
+      "title": "Proyectos con Clientes",
+      "subtitle": "Trabajos Destacados",
+      "paragraph1": "Una selección de los proyectos más destacados que he realizado para clientes.",
+      "items": [
+        {
+          "title": "Rifas JYM",
+          "description": "Desarrollo de un sistema de rifas donde los usuarios pueden comprar tickets estándar y premium para participar en sorteos con premios. Incluye gestión de compras, seguimiento de tickets y visualización de resultados."
+        }
+      ],
+      "button": "Ver más detalles"
+    },
     "project": {
       "title": "Proyectos",
       "subtitle": "Mis Proyectos Destacados",

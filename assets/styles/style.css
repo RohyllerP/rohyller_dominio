@@ -364,6 +364,7 @@ h2 {
     }
 
     .about {
+        padding-bottom: 40px;
         .about-1-div {
             text-align: center;
 
@@ -427,8 +428,22 @@ h2 {
         }
     }
 
+    .div-circle-projects{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(var(--color-primary));
+        font-weight: bold;
+        padding-bottom: 5px;
+        span{
+            padding: 10px 12px;
+            background: rgba(var(--color-primary), 0.2);
+            border-radius: 30px;
+        }
+    }
     .projects {
-        margin-top: 20px;
+        margin-top: 40px;
 
         .projects-text {
             text-align: center;
@@ -438,7 +453,8 @@ h2 {
                 padding: 7px 0px;
             }
         }
-
+    }
+    .projects, .projects-professional {
         .projects-card {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
@@ -557,9 +573,7 @@ h2 {
                 }
             }
         }
-
     }
-
     .certifications {
         .div-circle {
             display: flex;

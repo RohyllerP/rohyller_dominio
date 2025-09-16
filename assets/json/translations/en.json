@@ -38,6 +38,18 @@
         "desc": "Creating robust APIs and scalable systems for web applications."
       }
     },
+    "project_professional": {
+      "title": "Client Projects",
+      "subtitle": "Highlighted Work for Clients",
+      "paragraph1": "A selection of the most notable projects I have completed for clients.",
+      "items": [
+        {
+          "title": "Rifas JYM",
+          "description": "Development of a raffle system where users can purchase tickets to participate in prize draws. Includes purchase management, ticket tracking, and result visualization."
+        }
+      ],
+      "button": "See more details"
+    },
     "project": {
       "title": "Projects",
       "subtitle": "Highlighted Projects",
