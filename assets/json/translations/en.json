@@ -81,16 +81,20 @@
       "button": "See certificate",
       "items": [
         {
-          "title": "English A1",
-          "date": "June 2022"
+          "title": "Digital Marketing & Strategy",
+          "date": "November 2025"
         },
         {
-          "title": "English B1",
-          "date": "February 2023"
+          "title": "Photoshop from zero to expert",
+          "date": "February 2024"
         },
         {
           "title": "English C1",
           "date": "October 2023"
+        },
+        {
+          "title": "English B1",
+          "date": "February 2023"
         },
         {
           "title": "Python Workshop",
@@ -101,16 +105,16 @@
           "date": "October 2022"
         },
         {
-          "title": "Photoshop from zero to expert",
-          "date": "February 2024"
-        },
-        {
-          "title": "Introduction to web development 1",
-          "date": "October 2020"
+          "title": "English A1",
+          "date": "June 2022"
         },
         {
           "title": "Frontend web developer",
           "date": "August 2021"
+        },
+        {
+          "title": "Introduction to web development 1",
+          "date": "October 2020"
         }
       ]
     },
@@ -164,11 +168,8 @@
           "description": "I worked remotely for a Chilean company providing academic support to university students, developing IT tasks and projects, including programming, databases, and theses. I undertook both greenfield projects and enhancements to existing works with complete autonomy. Additionally, I built websites and prototypes for real clients, utilizing tools like Adobe XD and Photoshop when necessary. This experience strengthened my technical, design, and professional communication skills.",
           "highlights": "Highlights:",
           "achievements": [
-            "Full-cycle development of academic and professional IT projects.",
-            "Autonomous management of tasks from analysis to final delivery.",
-            "Design of functional interfaces and prototypes using Adobe XD and Photoshop.",
-            "Delivery of customized solutions for real clients and students.",
-            "Optimization of code performance and clarity in technical documentation."
+            "Contributed to over 30 web development projects, achieving a 25% increase in project completion rates and improving client satisfaction through continuous technical support.",
+            "Assisted teams and individuals in implementing functionalities they couldn’t complete, strengthening the final quality of projects and the company’s professional image."
           ],
           "technologies": "Technologies:"
         },

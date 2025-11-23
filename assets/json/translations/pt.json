@@ -81,16 +81,20 @@
       "button": "Ver certificado",
       "items": [
         {
-          "title": "Inglês A1",
-          "date": "Junho 2022"
+          "title": "Marketing digital",
+          "date": "Novembro 2025"
         },
         {
-          "title": "Inglês B1",
-          "date": "Fevereiro 2023"
+          "title": "Photoshop do zero ao expert",
+          "date": "Fevereiro 2024"
         },
         {
           "title": "Inglês C1",
           "date": "Outubro 2023"
+        },
+        {
+          "title": "Inglês B1",
+          "date": "Fevereiro 2023"
         },
         {
           "title": "Taller de Python",
@@ -101,16 +105,16 @@
           "date": "Outubro 2022"
         },
         {
-          "title": "Photoshop de cero a experto",
-          "date": "Fevereiro 2024"
-        },
-        {
-          "title": "Introdução ao desenvolvimento web 1",
-          "date": "Outubro 2020"
+          "title": "Inglês A1",
+          "date": "Junho 2022"
         },
         {
           "title": "Frontend web developer",
           "date": "Agosto 2021"
+        },
+        {
+          "title": "Introdução ao desenvolvimento web 1",
+          "date": "Outubro 2020"
         }
       ]
     },
@@ -186,11 +190,8 @@
           "description": "Trabalhei remotamente para uma empresa chilena de apoio académico universitário, desenvolvendo tarefas e projetos na área de informática, como programação, bases de dados e teses. Realizei tanto projetos de raiz como melhorias a trabalhos existentes, com total autonomia. Além disso, criei websites e protótipos para clientes reais, utilizando ferramentas como Adobe XD e Photoshop quando necessário. Esta experiência fortaleceu as minhas competências técnicas, de design e de comunicação profissional.",
           "highlights": "Alguns destaque:",
           "achievements": [
-            "Desenvolvimento completo de projetos académicos e profissionais em informática.",
-            "Gestão autónoma de tarefas desde a análise até à entrega final.",
-            "Criação de interfaces e protótipos funcionais com Adobe XD e Photoshop.",
-            "Entrega de soluções personalizadas para clientes reais e estudantes.",
-            "Otimização do desempenho do código e clareza na documentação técnica."
+            "Contribuí em mais de 30 projetos de desenvolvimento web, alcançando um aumento de 25% na taxa de conclusão de projetos e melhorando a satisfação dos clientes através de suporte técnico contínuo.",
+            "Apoiei equipes e indivíduos na implementação de funcionalidades que não conseguiam completar, fortalecendo a qualidade final dos projetos e a imagem profissional da empresa."
           ],
           "technologies": "Tecnologias:"
         },
