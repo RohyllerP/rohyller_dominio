@@ -56,6 +56,10 @@
       "paragraph1": "A selection of the most destacated projects in which I have worked.",
       "items": [
         {
+          "title": "PathWork",
+          "description": "Image, PDF, audio and video conversion platform."
+        },
+        {
           "title": "Tic Tac Toe",
           "description": "A classic Tic Tac Toe game developed with simple logic and interactive interface for two players."
         },
