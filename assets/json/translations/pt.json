@@ -46,6 +46,10 @@
         {
           "title": "Rifas JYM",
           "description": "Desenvolvimento de um sistema de rifas onde os utilizadores podem comprar bilhetes para participar em sorteios com prémios. Inclui gestão de compras, acompanhamento de bilhetes e visualização de resultados."
+        },
+        {
+          "title": "RecallNest App",
+          "description": "Aplicação de flashcards que permite criar decks e cartões personalizados, acompanhar estatísticas e progresso de estudo, utilizar diferentes métodos de aprendizagem, estudar cartões difíceis, adicionar áudio e imagens, ouvir pronúncias, escolher idiomas, ganhar XP, subir de nível e muito mais."
         }
       ],
       "button": "Ver mais detalhes"

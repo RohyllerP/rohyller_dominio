@@ -46,7 +46,11 @@
         {
           "title": "Rifas JYM",
           "description": "Development of a raffle system where users can purchase tickets to participate in prize draws. Includes purchase management, ticket tracking, and result visualization."
-        }
+        },
+        {
+  "title": "RecallNest App",
+  "description": "Flashcard application that allows users to create custom decks and cards, track study statistics and progress, use different learning methods, review difficult cards, add audio and images, listen to pronunciations, choose languages, earn XP, level up, and much more."
+}
       ],
       "button": "See more details"
     },
