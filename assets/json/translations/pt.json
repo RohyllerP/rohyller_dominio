@@ -194,6 +194,22 @@
       "button": "See more details",
       "items": [
         {
+          "type": "Estágio",
+          "dates": "Janeiro 2026 - Abril 2026",
+          "title": "Desenvolvedor Web",
+          "company": "InovCorp",
+          "location": "Portugal",
+          "description": "Participei no desenvolvimento de aplicações web como CRM e integrações com a API Gemini utilizando Laravel, Vue.js e MySQL. Trabalhei aplicando boas práticas de arquitetura, segurança de rotas e testes automatizados com PEST, além de colaborar em entregas incrementais semanais com documentação, vídeos e demonstrações funcionais.",
+          "highlights": "Principais conquistas:",
+          "achievements": [
+            "Desenvolvimento de aplicações web CRM e integrações com IA através da API Gemini.",
+            "Implementação de backend e frontend com Laravel, Vue.js e MySQL.",
+            "Aplicação de boas práticas de arquitetura, segurança de rotas e testes com PEST.",
+            "Gestão de entregas incrementais semanais com documentação técnica e demonstrações funcionais."
+          ],
+          "technologies": "Tecnologias:"
+        },
+        {
           "type": "Tempo inteiro",
           "dates": "Julho 2022 - Abril 2025",
           "title": "Técnico de Desenvolvimento de Soluções Informáticas (Remoto)",

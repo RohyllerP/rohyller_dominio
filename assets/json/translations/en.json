@@ -48,9 +48,9 @@
           "description": "Development of a raffle system where users can purchase tickets to participate in prize draws. Includes purchase management, ticket tracking, and result visualization."
         },
         {
-  "title": "RecallNest App",
-  "description": "Flashcard application that allows users to create custom decks and cards, track study statistics and progress, use different learning methods, review difficult cards, add audio and images, listen to pronunciations, choose languages, earn XP, level up, and much more."
-}
+          "title": "RecallNest App",
+          "description": "Flashcard application that allows users to create custom decks and cards, track study statistics and progress, use different learning methods, review difficult cards, add audio and images, listen to pronunciations, choose languages, earn XP, level up, and much more."
+        }
       ],
       "button": "See more details"
     },
@@ -171,6 +171,22 @@
       "paragraph": "My work experience and professional background.",
       "button": "See more details",
       "items": [
+        {
+          "type": "Internship",
+          "dates": "January 2026 - April 2026",
+          "title": "Web Developer",
+          "company": "InovCorp",
+          "location": "Portugal",
+          "description": "I participated in the development of web applications such as CRM systems and Gemini API integrations using Laravel, Vue.js, and MySQL. I worked applying best practices in architecture, route security, and automated testing with PEST, while also collaborating on weekly incremental deliveries with documentation, videos, and functional demos.",
+          "highlights": "Highlights:",
+          "achievements": [
+            "Development of CRM web applications and AI integrations using the Gemini API.",
+            "Implementation of backend and frontend features with Laravel, Vue.js, and MySQL.",
+            "Applied best practices in architecture, route security, and testing with PEST.",
+            "Managed weekly incremental deliveries with technical documentation and functional demos."
+          ],
+          "technologies": "Technologies:"
+        },
         {
           "type": "Full-time",
           "dates": "July 2022 - April 2025",

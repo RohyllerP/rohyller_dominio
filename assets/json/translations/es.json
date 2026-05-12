@@ -171,6 +171,22 @@
       "button": "See more details",
       "items": [
         {
+          "type": "Prácticas",
+          "dates": "Enero 2026 - Abril 2026",
+          "title": "Desarrollador Web",
+          "company": "InovCorp",
+          "location": "Portugal",
+          "description": "Participé en el desarrollo de aplicaciones web como CRM e integraciones con la API de Gemini utilizando Laravel, Vue.js y MySQL. Trabajé aplicando buenas prácticas de arquitectura, seguridad de rutas y pruebas automatizadas con PEST, además de colaborar en entregas incrementales semanales con documentación, vídeos y demostraciones funcionales.",
+          "highlights": "Logros destacados:",
+          "achievements": [
+            "Desarrollo de aplicaciones web CRM e integraciones con IA mediante API Gemini.",
+            "Implementación de backend y frontend con Laravel, Vue.js y MySQL.",
+            "Aplicación de buenas prácticas de arquitectura, seguridad de rutas y testing con PEST.",
+            "Gestión de entregas incrementales semanales con documentación técnica y demos funcionales."
+          ],
+          "technologies": "Tecnologías:"
+        },
+        {
           "type": "Tiempo completo",
           "dates": "Julio 2022 - Abril 2025",
           "title": "Técnico en Desarrollo de Soluciones Informáticas (Remoto)",
